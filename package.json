@@ -6,11 +6,19 @@
   "bin": "./bin/index.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"No test specified\"",
     "lint": "eslint ./bin --fix"
   },
+  "engines" : { 
+    "node" : "18.18.1"
+  },
   "keywords": ["youtube", "twitter", "yt-dlp", "ffmpeg"],
-  "author": "Oliver Mak",
+  "author": "Oliver Mak <oliver139.working@gmail.com> (https://github.com/oliver139)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliver139/ydlmp3"
+  },
   "dependencies": {
     "command-exists": "^1.2.9",
     "yargs": "^17.7.2",
