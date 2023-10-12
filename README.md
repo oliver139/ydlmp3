@@ -29,7 +29,7 @@ PNPM with node 18.18.1 is used.
 pnpm install
 ```
 
-### Install the bin the global folder
+### Install the bin to the global folder
 ```sh
 pnpm link -g
 ```
