@@ -1,6 +1,6 @@
 {
   "name": "ydlmp3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli tool using yt-dlp to download and clip videos, then convert to mp3",
   "main": "index.js",
   "bin": "./bin/index.js",
@@ -9,10 +9,15 @@
     "test": "echo \"No test specified\"",
     "lint": "eslint ./bin --fix"
   },
-  "engines" : { 
-    "node" : "18.18.1"
+  "engines": {
+    "node": "18.18.1"
   },
-  "keywords": ["youtube", "twitter", "yt-dlp", "ffmpeg"],
+  "keywords": [
+    "youtube",
+    "twitter",
+    "yt-dlp",
+    "ffmpeg"
+  ],
   "author": "Oliver Mak <oliver139.working@gmail.com> (https://github.com/oliver139)",
   "license": "MIT",
   "repository": {
